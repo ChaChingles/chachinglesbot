@@ -27,7 +27,7 @@ async def on_message(message):
         # print(message.content)
         # print(message.author.mention)
         # bot.guilds.cache.get(940558872949702716).channels.cache.get(940558872949702719).send(message.content)
-        all_channels = [953964147291340820, 829863135354945606]
+        all_channels = [953964147291340820, 829863135354945606, 1040329516704350259]
         for i in all_channels:
             # await bot.get_channel(i).send(f"<@690939370089480252>\n" + "> " +message.content)
             await bot.get_channel(i).send(message.author.mention + "\n" + message.content)
